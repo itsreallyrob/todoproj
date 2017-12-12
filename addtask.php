@@ -17,7 +17,7 @@ try {
       $timedue = $_POST['timedue'];
       $useremail = $_SESSION['email'];
       $totaldue = $datedue . " " . $timedue;
-      $date = date('Y-m-d H:i:s');
+      $date = date('Y-m-d H:i:s');  
 
       $_SESSION['errorsession2'] = "";
       $_SESSION['errorsent2']=false;

@@ -15,7 +15,7 @@ try {
   		$userpass = $_POST['password'];
       $_SESSION['email'] = $_POST['email'];
       $_SESSION['errorsession'] = "";
-      $_SESSION['errorsent']=false;
+      $_SESSION['errorsent']=false;  
 
   		
   		echo $useremail . " " . $userpass . "</br>";

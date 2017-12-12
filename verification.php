@@ -9,7 +9,7 @@ try {
 	    $conn = new mysqli($hostname, $username, $password, $dbname1);
 
 
-	    session_start();
+	    session_start();  
   		
       //Create Variables
       $_SESSION['errorsession'] = "";

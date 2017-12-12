@@ -20,7 +20,7 @@ try {
 
 		//Edit
 		else if(isset($_POST['editbut']))
-		{ 
+		{   
 
 
 			$_SESSION['id2']=$_POST['editbut'];

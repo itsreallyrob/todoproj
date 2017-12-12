@@ -10,7 +10,7 @@ html, body {
 	position: relative;
 	overflow: auto;
 	z-index: 0; 
-}
+}  
 .contentbody {
 	min-height: 100%;
 	position: relative;

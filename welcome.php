@@ -11,7 +11,7 @@ $useremail = $_SESSION['email'];
 ?>
 
 
-<!doctype html>
+<!doctype html>  
 <html>
 <head>
 	<title>To Do List</title>

@@ -16,7 +16,7 @@ try {
 			$sql = "DELETE FROM todos WHERE id='$alex'";
 			mysqli_query($conn, $sql);
 
-			header("Location: welcome.php");
+			header("Location: welcome.php");  
 		    exit;
 
 }
